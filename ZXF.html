@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>ZXF SYSTEM</title>
+    <link href="css/vendor.min.css" rel="stylesheet">
+    <link href="css/app.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <audio autoplay="autoplay" loop="loop" preload="auto" src="./music.mp3"> </audio>   
+    <div id="app-container" style="display: none">
+        <div id="progress-bar">
+            <div class="indicator"></div>
+        </div>
+        <div id="head">
+            <div class="tab">ZXF's Secret Diary</div>
+        </div>
+        <div id="main" class="terminal">
+            <div id="content"></div>
+            <canvas id="foreground-layer" width="0" height="0"></canvas>
+        </div>
+        <div id="action-bar" class="hide">
+            <div class="enter-btn">Enter</div>
+        </div>
+    </div>
+    <script src="js/vendor.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
